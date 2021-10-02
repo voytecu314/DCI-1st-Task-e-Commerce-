@@ -39,6 +39,10 @@ li:nth-child(2), li:nth-child(3){
     margin-right: 7%;
 }
 
+a:link {
+    text-decoration: none;
+  }
+
 img {
     display: block;
     width:100%;
