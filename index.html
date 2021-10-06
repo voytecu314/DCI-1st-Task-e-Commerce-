@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>eCommerce</title>
     <link rel="stylesheet" href="style.css">
+    <script src="display.js"></script>
 </head>
 <body>
 
@@ -84,8 +85,13 @@
 
     <footer>
         <img class="img-big" src="./img/guitar-footer.jpeg" alt="Image can not be displayed">
-        <div class="footer-div">
+        <div class="footer-div1" onclick="display_level2()">
             Hope to see u again!
+                <div class="footer-div" id="level2" onclick="level2()">
+                    Not really :)
+                    <div class="footer-div"  id="level3" onclick="level2()">
+                        Don't come back :D</div>
+                </div>
         </div>
     </footer>
 </body>
